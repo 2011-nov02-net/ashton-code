@@ -11,8 +11,7 @@ namespace AcronymExtractor
             string phrase = Console.ReadLine();
             string[] words = phrase.Split(" ");
             foreach (string word in words) {
-                Console.WriteLine(word[0]);
-
+                Console.Write($"{word[0]}.");
             }
 
         }
