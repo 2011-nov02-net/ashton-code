@@ -61,7 +61,9 @@ WHERE ID = (
 	Products where Name = 'IPhone'
 )
 
-
+UPDATE Products
+SET Price = 250
+WHERE ProductID = 4
 
 
 
